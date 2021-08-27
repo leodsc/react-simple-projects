@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  border: none;
+  outline: none;
+  background-color: none;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+}
