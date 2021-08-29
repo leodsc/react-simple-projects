@@ -1,5 +1,4 @@
-import { useEffect } from "react";
-import Project from "./components/Tours";
+import Project from "./components/Reviews";
 
 function App() {
   return <Project />;
