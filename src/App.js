@@ -1,4 +1,5 @@
-import Project from "./components/BirthdayReminder";
+import { useEffect } from "react";
+import Project from "./components/Tours";
 
 function App() {
   return <Project />;
