@@ -1,4 +1,4 @@
-import Project from "./components/Reviews";
+import Project from "./components/Accordion";
 
 function App() {
   return <Project />;
