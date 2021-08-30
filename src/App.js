@@ -1,4 +1,4 @@
-import Project from "./components/Accordion";
+import Project from "./components/Menu";
 
 function App() {
   return <Project />;
