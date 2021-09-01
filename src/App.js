@@ -1,4 +1,4 @@
-import Project from "./components/Tabs";
+import Project from "./components/Slider";
 
 function App() {
   return <Project />;
