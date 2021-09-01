@@ -86,9 +86,6 @@ function Slide({ image, name, title, quote, animation }) {
         <h6>{title}</h6>
       </div>
       <p>{quote}</p>
-      {/* <svg width="150" height="150">
-        <path d="M300 0 L75 200 Z"></path>
-      </svg> */}
     </div>
   );
 }
