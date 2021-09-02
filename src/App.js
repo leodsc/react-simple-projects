@@ -1,4 +1,4 @@
-import Project from "./components/Slider";
+import Project from "./components/LoremIpsum";
 
 function App() {
   return <Project />;
