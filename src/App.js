@@ -1,4 +1,4 @@
-import Project from "./components/LoremIpsum";
+import Project from "./components/ColorPicker";
 
 function App() {
   return <Project />;

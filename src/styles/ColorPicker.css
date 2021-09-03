@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f5f8;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+main {
+  padding: 2rem 0;
+}
+
+h1 {
+  letter-spacing: 1px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #102a42;
+  text-transform: capitalize;
+}
+
+input {
+  border: none;
+  padding: 0.5rem 0 0.5rem 1rem;
+}
+
+button {
+  border: none;
+  background-color: #49a6e9;
+  color: white;
+  padding: 0.75rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+div.color {
+  width: 100vw;
+  height: 80px;
+}
+
+p {
+  padding-left: 2rem;
+}
+
+#color-gradient {
+  margin-top: 1rem;
+}
+
+.copied {
+  color: #627e99;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+@media screen and (min-width: 459px) {
+  #color-gradient {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+  }
+
+  div.color {
+    width: auto;
+    height: 90px;
+  }
+}
+
+@media screen and (min-width: 590px) {
+  #color-gradient {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  #color-gradient {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  #color-gradient {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  div.color {
+    height: 140px;
+  }
+}
