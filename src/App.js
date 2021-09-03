@@ -1,4 +1,4 @@
-import Project from "./components/ColorPicker";
+import Project from "./components/GroceryBud";
 
 function App() {
   return <Project />;
