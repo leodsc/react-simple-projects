@@ -1,4 +1,4 @@
-import Project from "./components/GroceryBud";
+import Project from "./components/SidebarAndModal";
 
 function App() {
   return <Project />;
