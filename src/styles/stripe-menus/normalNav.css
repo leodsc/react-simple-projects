@@ -1,0 +1,50 @@
+@media screen and (min-width: 809px) {
+  header {
+    max-width: 1000px;
+  }
+
+  nav#larger-width {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .dropdown-btn {
+    padding: 0 2.5rem;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    color: white;
+    font-size: 16px;
+  }
+
+  .dropdown-content {
+    position: absolute;
+    background-color: #fff;
+    z-index: 1;
+    display: none;
+    grid-template-columns: auto auto;
+    grid-template-rows: 1fr 1fr;
+    padding: 2rem;
+    column-gap: 2rem;
+    row-gap: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.25);
+    margin-top: 1rem;
+    transition: left 500ms;
+  }
+
+  .dropdown-content h3 {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #102a43;
+    text-shadow: none;
+  }
+
+  #sign-in {
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    padding: 0.4rem 1rem;
+    font-size: 16px;
+    font-weight: 500;
+  }
+}

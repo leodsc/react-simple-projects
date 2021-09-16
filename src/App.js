@@ -1,4 +1,4 @@
-import Project from "./components/SidebarAndModal";
+import Project from "./components/stripe-menus";
 
 function App() {
   return <Project />;
