@@ -1,4 +1,4 @@
-import Project from "./components/stripe-menus";
+import Project from "./components/use-reducer";
 
 function App() {
   return <Project />;
